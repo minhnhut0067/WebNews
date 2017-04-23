@@ -4,11 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
+    <div class="top-header clearfix">
+        <div class="container">
+            <div class="left col-md-6 col-sm-6 col-xs-12 hidden-xs" style="border-bottom: 1px solid #ccc">
+                <div class="row hotline">
+                    <span class="title"><i class="fa fa-envelope"></i>&nbsp;Email:&nbsp;abc@gmail.com&nbsp;|&nbsp;Hotline:&nbsp;0900000000</span>
+                </div>
+            </div>
+            <div class="right col-md-6 col-sm-6 col-xs-12 hidden-xs" style="border-bottom: 1px solid #ccc">
+                <div class="row contact">
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-play"></i></a>
+
+                    <a href="http://websitedoanhnghiep.vhv.vn/?page=login">Đăng nhập</a>
+                    |
+                    <a href="http://websitedoanhnghiep.vhv.vn/?page=register"><span>Đăng ký</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -36,9 +58,9 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="~/Scripts/_references.js"></script>
     @RenderSection("scripts", required: false)
 </body>
 </html>

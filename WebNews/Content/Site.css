@@ -22,3 +22,18 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Layout*/
+.top-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 30px;
+}
+.hotline{
+    padding:5px 0px;
+}
+.contact{
+    padding:5px 0px;
+    text-align:right;
+}
