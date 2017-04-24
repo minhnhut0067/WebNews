@@ -212,6 +212,18 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\Slide\002.jpg" />
+    <Content Include="Content\Images\Slide\003.jpg" />
+    <Content Include="Content\Images\Slide\004.jpg" />
+    <Content Include="Content\Images\Slide\005.jpg" />
+    <Content Include="Content\Images\Slide\006.jpg" />
+    <Content Include="Content\Images\Slide\a02.png" />
+    <Content Include="Content\Images\Slide\loading.gif" />
+    <Content Include="Content\Images\Slide\thumb-002.jpg" />
+    <Content Include="Content\Images\Slide\thumb-003.jpg" />
+    <Content Include="Content\Images\Slide\thumb-004.jpg" />
+    <Content Include="Content\Images\Slide\thumb-005.jpg" />
+    <Content Include="Content\Images\Slide\thumb-006.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -235,6 +247,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jssor.slider-23.1.5.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />

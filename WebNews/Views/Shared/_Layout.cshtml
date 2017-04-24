@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Web Tin tức</title>
     <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -24,9 +24,7 @@
                     <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
                     <a href="#" target="_blank"><i class="fa fa-play"></i></a>
 
-                    <a href="http://websitedoanhnghiep.vhv.vn/?page=login">Đăng nhập</a>
-                    |
-                    <a href="http://websitedoanhnghiep.vhv.vn/?page=register"><span>Đăng ký</span></a>
+                    @Html.Partial("_LoginPartial")
                 </div>
             </div>
         </div>
@@ -39,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Bệnh viện đa khoa Nghi Xuân", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -47,7 +45,7 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
     </div>
