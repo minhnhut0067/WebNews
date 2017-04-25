@@ -23,30 +23,134 @@ textarea {
     max-width: 280px;
 }
 /*Layout*/
-.top-header {
+#top-header {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #fff;
     height: 30px;
 }
-.hotline{
-    padding:5px 0px;
+
+.hotline {
+    padding: 5px 0px;
 }
-.contact{
-    padding:5px 0px;
-    text-align:right;
+
+.contact {
+    padding: 5px 0px;
+    text-align: right;
 }
-.contact > span > a:hover{
-    text-decoration:none;
+
+    .contact > span > a:hover {
+        text-decoration: none;
+    }
+
+#logoutForm > span > a:hover {
+    text-decoration: none;
 }
-.navbar{
-    min-height:40px;
+
+#top-menu {
+    min-height: 40px;
 }
-.navbar-brand{
-    padding:10px 15px;
+
+    #top-menu .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+#top-menu {
+    background: #0769ad none repeat scroll 0 0;
+    border-color: none;
 }
-.navbar-nav > li > a {
-    padding-bottom: 10px;
-    padding-top: 10px;
+
+    #top-menu .navbar-brand {
+        height: 40px;
+        padding: 10px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+
+    #top-menu .navbar-nav > li > a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+        #top-menu .navbar-nav > li > a:hover,
+        #top-menu .navbar-nav > li > a:focus {
+            color: #000;
+            background: #b3d4fc none repeat scroll 0 0;
+        }
+
+#top-banner {
+    /*max-height: 100px;*/
 }
+
+    #top-banner .banner {
+        padding: 20px 0;
+        position: relative;
+    }
+
+    #top-banner .bg-header {
+        position: relative;
+    }
+
+    #top-banner .header-utilities {
+        right: 160px;
+        top: 30px;
+        position: absolute;
+    }
+
+    #top-banner .form-search {
+        float: left;
+        margin-right: 0;
+    }
+
+    #top-banner .examination {
+        position: absolute;
+        right: 0;
+        top: 30px;
+    }
+
+        #top-banner .examination a {
+            background-color: #0769ad;
+            background-image: url("Images/bg-datlich.png") !important;
+            background-position: 10px center;
+            background-repeat: no-repeat;
+            color: #fff;
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 34px;
+            padding-left: 35px;
+            padding-right: 10px;
+            text-transform: uppercase;
+        }
+        #top-banner .examination a:focus,#top-banner .examination a:hover{
+            text-decoration:none;
+        }
+
+    #top-banner .form-search input[type="text"] {
+        min-width: 230px;
+    }
+
+    #top-banner .form-search input[type="text"] {
+        background-image: url('Images/bg-seach-home.jpg');
+        background-position: left top;
+        background-repeat: no-repeat;
+        border-radius: 0;
+        display: inline-block;
+        outline: medium none;
+        padding: 0 0 0 42px;
+        width: auto;
+    }
+
+    #top-banner .form-search button[type="submit"] {
+        background-color: #0769ad;
+        border: medium none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 34px;
+        padding: 0 10px;
+    }

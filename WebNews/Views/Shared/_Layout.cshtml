@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div class="top-header clearfix">
+    <div id="top-header" class="clearfix">
         <div class="container">
             <div class="left col-md-6 col-sm-6 col-xs-12 hidden-xs" style="border-bottom: 1px solid #ccc">
                 <div class="row hotline">
@@ -29,7 +29,34 @@
             </div>
         </div>
     </div>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div id="top-banner" class="clearfix">
+        <div class="container">
+            <div style="" class="banner clearfix">
+                <div class="bg-header clearfix">
+                    <div class="logo hidden-xs">
+                        <a title="Logo" href="http://websitedoanhnghiep.vhv.vn/">
+                            <img alt="Logo" src="~/Content/Images/logo-test.png">
+                        </a>
+                    </div>
+                    <div class="header-hidden header-utilities">
+
+                        <div class="form-search">
+                            <form id="form22" method="post">
+                                <input type="text" placeholder="Nhập từ khóa..." class="form-control" fixedname="keyword22">
+                                <button type="submit">Tìm kiếm</button>
+                                <input type="hidden" value="894f786b2f8a4628c9b292f4c1a2c39667e09379e111a9e952ca1109b84a5ea2" name="securityToken"><input type="hidden" value="22" name="submitFormId"><input type="hidden" value="22" name="moduleId">
+                            </form>
+                        </div>
+
+
+                    </div>
+                    <div class="examination"><a href="/lien-he">Đặt lịch khám</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="top-menu" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,15 +68,17 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Trangchu")</li>
+                    <li>@Html.ActionLink("Giới thiệu", "About", "Home")</li>
+                    <li>@Html.ActionLink("Dịch vụ", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Tin tức - Sự kiện", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Liên hệ", "Contact", "Home")</li>
                 </ul>
                 @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div id="body" class="container body-content">
         @RenderBody()
         <hr />
         <footer>
