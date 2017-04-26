@@ -226,6 +226,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Images\bg-datlich.png" />
+    <Content Include="Content\Images\bg-datlich_hover.png" />
     <Content Include="Content\Images\bg-seach-home.jpg" />
     <Content Include="Content\Images\logo-test.png" />
     <Content Include="Content\Images\Slide\002.jpg" />

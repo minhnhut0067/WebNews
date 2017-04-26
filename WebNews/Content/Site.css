@@ -126,9 +126,12 @@ textarea {
             padding-right: 10px;
             text-transform: uppercase;
         }
-        #top-banner .examination a:focus,#top-banner .examination a:hover{
-            text-decoration:none;
-        }
+
+            #top-banner .examination a:focus, #top-banner .examination a:hover {
+                text-decoration: none;
+                background-color: #b3d4fc;
+                color: #000;
+            }
 
     #top-banner .form-search input[type="text"] {
         min-width: 230px;
@@ -154,3 +157,25 @@ textarea {
         line-height: 34px;
         padding: 0 10px;
     }
+
+        #top-banner .form-search button[type="submit"]:hover {
+            background-color: #b3d4fc;
+            color: #000;
+        }
+.action-links a:hover,.action-links a:focus{
+    text-decoration:none;
+}
+.custom-btn {
+        background-color: #0769ad;
+        border: medium none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 34px;
+        padding: 0 10px;
+    }
+
+        .custom-btn:hover {
+            background-color: #b3d4fc;
+            color: #000;
+        }
